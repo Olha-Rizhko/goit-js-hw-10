@@ -5,8 +5,7 @@
   |============================
 */
 @import url('./reset.css');
-@import url('./vite-promo.css');
-@import url('./header.css');
+@import url('./1-timer.css');
 
 :root {
   font-family: Inter, Avenir, Helvetica, Arial, sans-serif;
@@ -22,4 +21,29 @@
   -webkit-font-smoothing: antialiased;
   -moz-osx-font-smoothing: grayscale;
   -webkit-text-size-adjust: 100%;
+}
+
+body {
+  padding: 40px;
+  font-family: Montserrat, sans-serif;
+  letter-spacing: 0.04em;
+}
+
+.main-page-list{
+  display: flex;
+  gap: 24px;
+}
+
+.main-page-link{
+  padding: 8px;
+  border-radius: 4px;
+  color: rgb(0, 0, 0);
+  font-family: Montserrat;
+  background-color: #4E75FF;
+  color: #ffffff;
+  transform: background-color 250ms easy-in-out;
+}
+
+.main-page-link:hover{
+  background-color: #6C8CFF;
 }
